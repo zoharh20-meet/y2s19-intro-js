@@ -12,14 +12,14 @@
 
 ## 1 &ensp; Labs
 
-### 1.1 &ensp; User I/O (`./hello-world`)
-0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `hello-world/hello-world.html` in Sublime Text (or any other text editor).
+### 1.1 &ensp; User I/O (`./hello`)
+0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `hello.html` in Sublime Text (or any other text editor).
 1. In the `<script></script>` tags, use ``console.log`` to print "Hello, World" to the console.
 2. Open the **Chrome Inspector** (`Right Click > Inspect`) in **Chromium Web Browser** and look for the **Console**. Check to see if "Hello, World" was output to the console. If not, refresh and try again.
 3. Raise your hand and get checked off by a TA or instructor. Nice work!
 
 ### 1.2 &ensp; Variables, Numbers, and Strings (`./vars`)
-0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `vars/vars.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
+0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `vars.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
 1. Use `prompt` to ask the user for the year they were born. Store this value as a Number using `parseInt` in a variable called `birthYear`.
 2. Ask the user for their lucky number. Store this value as a Number using `parseInt` in a variable called `luckyNumber`.
 3. Create two `String` type variables called `favFruit` and `favSubject`. `favFruit` should contain your favorite fruit, and `favSubject` should contain your favorite subject.
@@ -35,7 +35,7 @@
 `javascript string to int`, `javascript variables`, `javascript order of operations`
 
 ### 1.3 &ensp; Arrays (`./arrays`)
-0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `arrays/arrays.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
+0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `arrays.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
 1. Ask the user for three things that they are excited for about MEET, separated by a comma and a space: `", "`.
 2. **Split** their answer into an array using and **sort** the array.
 3. Finally, **join** the resulting array together with `", "` and display it on the web page with `document.write`.
@@ -45,7 +45,7 @@
 `javascript split string`, `javascript sort array`, `javascript join array`
 
 ### 1.4 &ensp; Loops (`./loops`)
-0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `loops/loops.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
+0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `loops.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
 1. Let's write a guessing game! The code given to you generates a random number from 1 to 100 and stores it in a variable called `randomInt`. Using loops and conditionals, write a guessing game that does the following:
     1. Prompt the user to guess a number.
     2. If their guess is greater than `randomInt`, tell them that they guessed too high. If their guess is less than `randomInt`, tell them that they guessed to low.
@@ -54,7 +54,7 @@
 
 
 ### 1.5 &ensp; Functions (`./functions`)
-0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `functions/functions.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
+0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `functions.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
 1. A **palindrome** is a phrase that, when only letters are kept, reads the same both forwards and backwards. For example, "Madam, I'm Adam" is a palindrome, because when only letters are kept, "madamimadam" is the same as its reverse.
 2. Write a function called `isPalindrome(<word>)` that returns `true` or `false`, depending on whether or not the argument is a palindrome, using our provided `isLetter(<char>)` function. A `for` loop and learning to copy an array will be helpful too.
 3. Prompt the user to input a phrase, and then output to the screen a message whether or not their input is a palindrome.
