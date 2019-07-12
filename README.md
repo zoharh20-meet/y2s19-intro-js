@@ -1,4 +1,4 @@
-# Labs for Day 3, Lecture 1
+# Labs for Day 3, Lecture 3
 ## Introduction to JavaScript, Part 1 (Syntax)
 
 ## 0 &ensp; Getting Started
